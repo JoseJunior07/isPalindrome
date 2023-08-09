@@ -10,15 +10,14 @@ A função `isPalindrome` recebe uma palavra como entrada, verifica se ela é um
 
 1. Abra o seu ambiente de desenvolvimento (Node.js, navegador, etc.).
 2. Copie o código da função `isPalindrome` para o seu ambiente.
-3. Modifique a variável `palavra` para a palavra que você deseja verificar.
+3. Chame a função `isPalindrome` com a palavra que você deseja verificar como argumento.
 4. Execute o código.
 5. O resultado será exibido no console, indicando se a palavra é um palíndromo ou não.
 
 Exemplo:
 
 ```javascript
-function isPalindrome () {
-    let palavra = "rever";
+function isPalindrome (palavra) {
     let separaPalavra = palavra.split("");
     let palavraInvertida = separaPalavra.reverse();
     palavraInvertida = palavraInvertida.join("");
@@ -30,5 +29,4 @@ function isPalindrome () {
     }
 }
 
-isPalindrome();
-
+isPalindrome("rever");
