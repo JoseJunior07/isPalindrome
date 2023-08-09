@@ -18,7 +18,7 @@ Exemplo:
 
 ```javascript
 function isPalindrome () {
-    let palavra = "reve";
+    let palavra = "rever";
     let separaPalavra = palavra.split("");
     let palavraInvertida = separaPalavra.reverse();
     palavraInvertida = palavraInvertida.join("");
