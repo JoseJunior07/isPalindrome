@@ -1,5 +1,5 @@
-function isPalindrome () {
-    let palavra = "reve";
+function isPalindrome (palavra) {
+    
     let separaPalavra = palavra.split("");
     let palavraInvertida = separaPalavra.reverse();
     palavraInvertida = palavraInvertida.join("");
@@ -11,4 +11,4 @@ function isPalindrome () {
     }
 }
 
-isPalindrome();
+isPalindrome("rever");
